@@ -1,16 +1,16 @@
 import { output } from './utils'
 export default function plainText(){
  
-var str = `foo
-foobar
-foobaz
-fooboo`;
- 
+  var str = `This history island is his, it is`;
+  // var regex = /is/g
+  // var regex = /is(?=\s)/g
+  // var regex = /is(?=\s)?/g
+  // var regex = /\bis/g
+  // var regex = /\bis\b/g
+  // var regex = /\Bis/g
+  // var regex = /is\B/g
+  var regex = /\Bis\B/g
 
-  
-  // var regex = /foo(bar|boo)/g
-  // var regex = /foo(?=bar|boo)/g
-  var regex = /foo(?!bar|boo)/g
 
 
 
